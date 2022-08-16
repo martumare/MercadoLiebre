@@ -1,2 +1,2 @@
 # MercadoLiebre 📦
-### _HTML + CSS / Digital House_ 
+### _Práctica HTML + CSS / Digital House_ 
