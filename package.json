@@ -1,0 +1,24 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martumare/MercadoLiebre.git"
+  },
+  "keywords": [],
+  "author": "Martinica Mare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martumare/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/martumare/MercadoLiebre#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
