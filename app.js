@@ -1,12 +1,12 @@
-express = require("express");
-app = express();
-path = require("path");
+const express = require("express");
+const app = express();
+const path = require("path");
 
 app.listen(3030, () => {
     console.log("Servidor funcionando");
 })
 
-const publicPath = .path.resolve (__dirname, "./public"); 
+const publicPath = path.resolve (__dirname, "./public"); 
 app.use(express.static(publicPath));
 
 app.get(express.static(path.join(__dirname, "/public")))
