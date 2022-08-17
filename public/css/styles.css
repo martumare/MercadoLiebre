@@ -1,9 +1,17 @@
 * {
-    background-color: #EAC926;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
+header {
+    background-color: #EAC926;
+}
 .titulares {
     font-size: 24px;
 }
@@ -21,5 +29,9 @@
 }
 
 .burger-menu {
+    text-align: center;
+}
+
+.burger-menu i{
     
 }
