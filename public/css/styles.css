@@ -6,26 +6,26 @@
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
     font-size: 12px;
 }
 
 header {
     background-color: #EAC926;
 }
-.titulares {
-    font-size: 24px;
-}
 
 .precios {
     font-size: 18px;
 }
 
-.descuentos {
+.descuentos, .descrip {
     font-size: 16px; 
-}
-
-.descrip {
-    font-size: 16px;
 }
 
 .burger-menu {
@@ -33,5 +33,5 @@ header {
 }
 
 .burger-menu i{
-    
+
 }
