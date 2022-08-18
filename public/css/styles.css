@@ -20,11 +20,11 @@ header {
     background-color: #EAC926;
 }
 
-.precios {
+.price {
     font-size: 18px;
 }
 
-.descuentos, .descrip {
+.discount, .descrip {
     font-size: 16px; 
 }
 
