@@ -251,6 +251,7 @@ footer i {
 MEDIA QUERIES
 */
 
+/* CELULARES - SMARTPHONES */
 @media (max-width: 600px){
 
     main section article .descrip{
@@ -266,6 +267,7 @@ MEDIA QUERIES
     }
 }
 
+/* TABLETS - IPADS */
 @media (min-width: 601px) and (max-width: 992px){
 
     main section article{
@@ -293,6 +295,7 @@ MEDIA QUERIES
     }
 }
 
+/* DESKTOP - ORDENADORES */
 @media (min-width: 992px){
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
