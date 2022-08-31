@@ -9,7 +9,7 @@ Gris claro: #ebebeb;
 Verde: #39b54a;
 
 Se me rompio el codigo de la nav bar de tanto tocarlo y no pude solucionarlo. Ademas, no pude completar el ultimo desafio, no llegue con los tiempos. El resto esta completo. 
-Tengan piedad ja
+Tengan piedad porfi. Gracias <3
 */
 
 
@@ -313,6 +313,7 @@ MEDIA QUERIES
          align-self: center;
      }   
 
+     /* INTENTO DE ACOMODAR EL HEADER, lo dejo comentado por que sino me arruina el responsive. Pero se ve la intencion jaj
      header nav {
         display: flex;
      }
@@ -338,7 +339,7 @@ MEDIA QUERIES
      nav .ul-log li{
         padding: 10px;
     }
-    
+    */
 }
 
 /* DESKTOP - ORDENADORES */
