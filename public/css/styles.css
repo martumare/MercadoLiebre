@@ -289,6 +289,29 @@ MEDIA QUERIES
     .burger-menu {
         display: none;
     }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav .ul-nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        flex-grow: 0.3;
+        align-items: flex-start;
+    }
+
+    nav .ul-log {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        flex-grow: 0.3;
+        align-items: flex-end;
+    }
 }
 
 /* DESKTOP - ORDENADORES */
