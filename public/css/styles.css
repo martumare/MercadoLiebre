@@ -324,7 +324,7 @@ MEDIA QUERIES
         flex-grow: 0.5;
     }
 
-     na .ul-nav {
+     nav .ul-nav {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -335,7 +335,7 @@ MEDIA QUERIES
         padding: 10px;
     }
 
-    nav .ul-log li{
+     nav .ul-log li{
         padding: 10px;
     }
     
