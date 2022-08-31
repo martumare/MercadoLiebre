@@ -57,6 +57,7 @@ header div.form {
     display: flex;
     align-items: center;
     padding: 2px;
+    font-size: 11px;
 }
 
 header .form .input{
@@ -103,7 +104,7 @@ header ul li a {
     color: #000;
 }
 
-.list-b {
+.ul-log {
     padding: 20px 0px;
 } 
 
@@ -139,8 +140,8 @@ section.banner img {
     width: 100%;
 }
 
+
 main section article {
-    position: relative;
     background-color: #fff;
     margin: 10px 0px;
 }
@@ -151,14 +152,16 @@ main section article img {
 
 article div.main-article {
     width: 100%;
-    border-top: 3px solid #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 2px solid #ebebeb;
     padding: 15px;
     position: relative;
 }
 
 .price {
     font-size: 18px;
-    width: 30%;
 }
 
 .discount, 
@@ -170,7 +173,12 @@ article div.main-article {
 h3, 
 .descrip {
     color: #666;
-    padding: 20px 0px;
+    padding: 10px 0px;
+}
+
+.descrip {
+    display: none;
+    margin-top: 20px;
 }
 
 main section h3 {
@@ -195,23 +203,19 @@ main section article i{
     right: 20px;
     top: -15px;
 }
-  
-.products {
-    display: flex;
-}
+
 
 .article-wrap-description {
     display: flex;
+    width: 100%;
 }
 
 .article-wrap-description .price {
     flex-grow: 0.3;
-    
 }
 
 .article-wrap-description .discount {
     flex-grow: 0.7;
-    align-items: flex-end;
 }
 
 /* 
@@ -254,63 +258,42 @@ MEDIA QUERIES
 */
 
 /* CELULARES - SMARTPHONES */
-@media (max-width: 600px){
-
-    main section article .descrip{
+@media (max-width: 360px){
+    header nav {
         display: none;
-    }
-
-    header nav .list-a, .list-b {
-        display: none;
-    }
-
-    .products {
-        flex-direction: column;
     }
 }
 
 /* TABLETS - IPADS */
-@media (min-width: 601px) and (max-width: 992px){
-
-    main section article{
+@media (min-width: 361px){
+    main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-
-    .burger-menu {
-        display: none;
-    }
-
-    .products{
+    
+    .products {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: stretch;
     }
-    
-    main section div.products article{
+
+    main section div.products article {
         width: 45%;
     }
 
-    .price,
-    .discount{
-        width: 50%;
-    }
-
-}
-
-/* DESKTOP - ORDENADORES */
-@media (min-width: 992px){
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 24%;
-        flex-direction: row;
-    }
-
-    .products {
-        justify-content: space-between ;
+    .descrip {
+        display: block;
     }
 
     .burger-menu {
         display: none;
+    }
+}
+
+/* DESKTOP - ORDENADORES */
+@media (min-width: 769px){
+    main section div.products article {
+        width: 22%;
     }
 }

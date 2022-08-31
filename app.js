@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 
 app.listen(3030, () => {
-    console.log("Servidor funcionando");
+    console.log("Servidor funcionando en el puerto 3030");
 })
 
 const publicPath = path.resolve (__dirname, "./public"); 
