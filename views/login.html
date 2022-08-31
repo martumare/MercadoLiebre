@@ -16,10 +16,10 @@
                     <img src="images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre">
                 </div>
                 
-                <div class="form" action="#" method="GET">
-                    <div class="input">Buscar productos, marcas y más</div>
-                    <div class="submit"><i class="fa fa-search"></i></div>
-                </div>
+                <form action="#" method="GET">
+                    <input type="text" name="busqueda" placeholder="Buscar...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
                 <p><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de credito </p>
             </div>
 
@@ -43,6 +43,14 @@
             </div>
         </header>
         
+        <main class="login">
+            <form action="/" method="POST">
+                <input type="text" name="user" placeholder="Nombre de usuario">
+                <input type="password" name="pass" placeholder="Elegí tu contraseña">
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+
     </body>
 
     <footer>
