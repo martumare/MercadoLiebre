@@ -44,20 +44,35 @@
             </div>
         </header>
         
-        <main class="login">
-            <form action="/" method="POST">
-                <div class="usuario">
-                   <input type="text" name="user" placeholder="Nombre de usuario">   
-                </div>
-                <div class="contraseña">
-                   <input type="password" name="pass" placeholder="Elegí tu contraseña"> 
-                </div>
-                <div class="boton">
-                   <input type="submit" value="Enviar"> 
-                </div>
-                
+        <main class="main-login">
+            <form action="/login" method="POST" class="form-login">
+              <div>
+                <input
+                  type="text"
+                  id="user"
+                  name="user"
+                  placeholder="Nombre de usuario"
+                  class="text-box"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Elegí tu contraseña"
+                  class="text-box"
+                  required
+                />
+              </div>
+              <div class="div-edit">
+                <a href="/"
+                  ><button type="submit" class="send-button">Enviar</button></a
+                >
+              </div>
             </form>
-        </main>
+          </main>
 
     </body>
 
